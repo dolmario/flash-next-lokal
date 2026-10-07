@@ -1,0 +1,14 @@
+{
+  "tag": "b10867",
+  "commit": "f3f1a8f2760f28325a5ec20c05b171e5b7c83a29",
+  "prerelease": true,
+  "release_page": "https://github.com/ggml-org/llama.cpp/releases/tag/b10867",
+  "asset": {
+    "name": "llama-b10867-bin-win-vulkan-x64.zip",
+    "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10867/llama-b10867-bin-win-vulkan-x64.zip",
+    "sha256": "sha256:bd9a55f96bbfa0241b6321bd0ba8a62bf48f3a80b32c182977a143e4e65131da",
+    "bytes": 35757107
+  },
+  "verified_existing_local_zip_equivalence": true,
+  "new_download_installation_or_inference": false
+}
