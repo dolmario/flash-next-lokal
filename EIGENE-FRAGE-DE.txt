@@ -1,0 +1,1 @@
+Dies ist eine erfundene Übungsquelle, keine echte Firmeninformation. Version 1 nannte 120 Watt. Die aktuelle Version 3 nennt 90 Watt. Der Betrieb dauert acht Stunden. Nenne das aktuelle Leistungsbudget mit Quelle und berechne den Energiebedarf in Kilowattstunden. Wenn ein Prozessorname fehlt, sage ausdrücklich, dass er nicht dokumentiert ist.

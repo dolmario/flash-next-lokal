@@ -1,0 +1,1 @@
+This is a fictional practice source, not real business information. Version 1 stated 120 watts. Current version 3 states 90 watts. Operation lasts eight hours. State the current power budget with its source and calculate energy in kilowatt-hours. If the processor name is missing, explicitly say it is not documented.
