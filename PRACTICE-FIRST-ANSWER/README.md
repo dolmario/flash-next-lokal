@@ -7,7 +7,7 @@ Use a local model to turn three source notes into a short card or tutorial descr
 Open PowerShell in this extracted folder. Python3.12 must already be available (`py -3.12 -V`). The launcher uses the standard library.
 
 ```powershell
-.\INSTALL-RUNTIME.ps1 -Destination .\my-flash-runtime
+py -3.12 install_runtime.py --output my-flash-runtime
 ```
 
 The installer downloads the official pinned Vulkan archive, checks itsSHA256 and retains the matching libraries. It leaves your working directory unchanged.
@@ -17,7 +17,7 @@ The installer downloads the official pinned Vulkan archive, checks itsSHA256 and
 This example uses the three UD-IQ4_XS parts, approximately94GB on disk. Keep all three in one folder. MODELS.json links a pinned revision and gives every complete file hash. Existing verified model files can be reused. To download into a new folder:
 
 ```powershell
-.\DOWNLOAD-MODELS.ps1 -Destination .\models
+py -3.12 download_models.py --output models
 ```
 
 The model uses Qwen's own conditions; follow the model links before downloading. Runtime/model weights are not included in this kit.
@@ -49,4 +49,6 @@ Model: https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF
 
 ## Deutsch
 
-Dieses Praxispaket verbindet die Einrichtung mit einer konkreten Quellenfrage und dem API-Beispiel. Runtime und dreiModelldateien bleiben getrennt. INSTALL-RUNTIME.ps1 lädt das festgelegte offizielle Archiv. Verwende vorhandene geprüfte GGUF-Dateien oder lade die dreiTeile mit DOWNLOAD-MODELS.ps1. run_flash.py startet den eigenen lokalen Server; --test-and-exit schreibt Anfrage/Antwort/Zeiten und beendet genau diesen Prozess. Die historischen Tests verwenden andereProfile und behalten ihreDatierung.
+Dieses Praxispaket verbindet die Einrichtung mit einer konkreten Quellenfrage und dem API-Beispiel. Runtime und dreiModelldateien bleiben getrennt. install_runtime.py lädt das festgelegte offizielle Archiv. Verwende vorhandene geprüfte GGUF-Dateien oder lade die dreiTeile mit download_models.py. run_flash.py startet den eigenen lokalen Server; --test-and-exit schreibt Anfrage/Antwort/Zeiten und beendet genau diesen Prozess. Die historischen Tests verwenden andereProfile und behalten ihreDatierung.
+
+The included PowerShell helpers are optional for an already configured shell; the default Python route does not change execution policies.

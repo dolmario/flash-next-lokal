@@ -13,6 +13,11 @@
       "bytes": 1177
     },
     {
+      "path": "download_models.py",
+      "sha256": "7fa0eeb389622cf79fb614f0c69c3b4b071878f4c11d04712ebb0cdefd03e9cd",
+      "bytes": 1928
+    },
+    {
       "path": "EXAMPLE-ACTUAL-NATIVE.jsonl",
       "sha256": "b583a8dd7ec671590a459c6b10860958a3b59b83e002e9d48252362b8d704344",
       "bytes": 3145
@@ -26,6 +31,11 @@
       "path": "INSTALL-RUNTIME.ps1",
       "sha256": "be65c3478ffe4ee7d08f7bf3a880bbad2f35f272284bd64f263327b3a2455e31",
       "bytes": 963
+    },
+    {
+      "path": "install_runtime.py",
+      "sha256": "633c6fa97d8102cd1c2b4f79908b5a4a7e766df5159cf45bcd3883012ff2242d",
+      "bytes": 1994
     },
     {
       "path": "MODELS.json",
@@ -49,8 +59,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "f46d967f7cbed998841f4836f5c25a6a2560cbd3939611bff4f6e5d6c2f6069f",
-      "bytes": 3637
+      "sha256": "487282f6cedf18181b6715762e1c756b5eb2da5396fd34dfba91375c4daa977f",
+      "bytes": 3777
     },
     {
       "path": "run_flash.py",
