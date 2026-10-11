@@ -1,0 +1,189 @@
+{
+  "source": "Own local flashnext-hauptbenchmark-20260919/summary.json",
+  "source_sha256": "3f140b59689583ee4491ce9d2a7c6f4e46d4feef63fc0a200f2d555fa42151bb",
+  "rows": [
+    {
+      "phase": "short-32k",
+      "task": "belegaudit",
+      "passed": 5,
+      "total": 5,
+      "finish_reason": "stop",
+      "error": null,
+      "ttft_s": 35.5962153999717,
+      "first_content_s": 83.85929880000185,
+      "wall_s": 100.9143255999661,
+      "usage": {
+        "completion_tokens": 741,
+        "prompt_tokens": 497,
+        "total_tokens": 1238,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "llama_metrics": {
+        "prompt_tokens_per_second": 14.05,
+        "eval_tokens_per_second": 11.33,
+        "oom_detected": false
+      },
+      "memory": {
+        "samples": 101,
+        "peak_working_set_bytes": 17034182656,
+        "peak_private_bytes": 69123571712,
+        "minimum_available_physical_bytes": 91906048
+      }
+    },
+    {
+      "phase": "short-32k",
+      "task": "chunk_batch_plan",
+      "passed": 4,
+      "total": 4,
+      "finish_reason": "stop",
+      "error": null,
+      "ttft_s": 37.32719040004304,
+      "first_content_s": 184.88268229999812,
+      "wall_s": 194.73859540000558,
+      "usage": {
+        "completion_tokens": 1848,
+        "prompt_tokens": 289,
+        "total_tokens": 2137,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "llama_metrics": {
+        "prompt_tokens_per_second": 8.96,
+        "eval_tokens_per_second": 11.73,
+        "oom_detected": false
+      },
+      "memory": {
+        "samples": 194,
+        "peak_working_set_bytes": 19474108416,
+        "peak_private_bytes": 70609506304,
+        "minimum_available_physical_bytes": 4366336
+      }
+    },
+    {
+      "phase": "short-32k",
+      "task": "konfigurationsdiagnose",
+      "passed": 5,
+      "total": 5,
+      "finish_reason": "stop",
+      "error": null,
+      "ttft_s": 38.69238309998764,
+      "first_content_s": 76.83690799999749,
+      "wall_s": 87.90020129998447,
+      "usage": {
+        "completion_tokens": 504,
+        "prompt_tokens": 338,
+        "total_tokens": 842,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "llama_metrics": {
+        "prompt_tokens_per_second": 9.9,
+        "eval_tokens_per_second": 10.22,
+        "oom_detected": false
+      },
+      "memory": {
+        "samples": 88,
+        "peak_working_set_bytes": 17101258752,
+        "peak_private_bytes": 69490991104,
+        "minimum_available_physical_bytes": 111022080
+      }
+    },
+    {
+      "phase": "short-32k",
+      "task": "tool_call",
+      "passed": 4,
+      "total": 4,
+      "finish_reason": "tool_calls",
+      "error": null,
+      "ttft_s": 47.54117820004467,
+      "first_content_s": null,
+      "wall_s": 56.69895760004874,
+      "usage": {
+        "completion_tokens": 87,
+        "prompt_tokens": 476,
+        "total_tokens": 563,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "llama_metrics": {
+        "prompt_tokens_per_second": 11.07,
+        "eval_tokens_per_second": 9.4,
+        "oom_detected": false
+      },
+      "memory": {
+        "samples": 57,
+        "peak_working_set_bytes": 14795657216,
+        "peak_private_bytes": 69868109824,
+        "minimum_available_physical_bytes": 782336
+      }
+    },
+    {
+      "phase": "short-32k",
+      "task": "wiki_kuratierung",
+      "passed": 5,
+      "total": 5,
+      "finish_reason": "stop",
+      "error": null,
+      "ttft_s": 30.663839199987706,
+      "first_content_s": 215.35975960001815,
+      "wall_s": 224.68373639998026,
+      "usage": {
+        "completion_tokens": 2242,
+        "prompt_tokens": 343,
+        "total_tokens": 2585,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "llama_metrics": {
+        "prompt_tokens_per_second": 12.76,
+        "eval_tokens_per_second": 11.55,
+        "oom_detected": false
+      },
+      "memory": {
+        "samples": 223,
+        "peak_working_set_bytes": 18742956032,
+        "peak_private_bytes": 70229446656,
+        "minimum_available_physical_bytes": 16056320
+      }
+    },
+    {
+      "phase": "long-100k",
+      "task": "langkontext_nadel_widerspruch",
+      "passed": 7,
+      "total": 7,
+      "finish_reason": "stop",
+      "error": null,
+      "ttft_s": 8533.633451200032,
+      "first_content_s": 8926.786875800055,
+      "wall_s": 8952.523593700025,
+      "usage": {
+        "completion_tokens": 2717,
+        "prompt_tokens": 86135,
+        "total_tokens": 88852,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "llama_metrics": {
+        "prompt_tokens_per_second": 10.09,
+        "eval_tokens_per_second": 6.48,
+        "oom_detected": false
+      },
+      "memory": {
+        "samples": 8878,
+        "peak_working_set_bytes": 26905120768,
+        "peak_private_bytes": 70387204096,
+        "minimum_available_physical_bytes": 737280
+      }
+    }
+  ],
+  "fresh_test": false,
+  "test_scores_not_universal_quality": true,
+  "resident_RAM_not_private_commit": true
+}

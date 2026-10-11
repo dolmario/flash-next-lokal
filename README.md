@@ -1,31 +1,17 @@
-# Flash Next lokal: 177B auf 64 GB verstehen
+# Flash Next Without Nvidia: Your First Local Answer
 
-Ein Lernpaket zum dokumentierten Windows-Vulkan-Versuch auf unserem GMKtec EVO-X2 mit Strix Halo. Du erhältst einen kontrollierbaren Weg vom passenden Runtime-Paket bis zur eigenen Quellenfrage, mit getrennten deutschen und englischen Anleitungen.
+Turn three source notes into a useful card or tutorial description on a Strix Halo mini PC. The new practice guide connects a freshly installed pinned runtime with the actual browser source question, follow-up and API example.
 
-## Download und Einstieg
+**[Download FIRST-ANSWER-KIT.zip](downloads/FIRST-ANSWER-KIT.zip)** · **[English guide and German summary](PRACTICE-FIRST-ANSWER/README.md)**
 
-| Sprache | Download | Zuerst lesen |
-|---|---|---|
-| Deutsch | [FLASH-NEXT-DE.zip](https://raw.githubusercontent.com/dolmario/flash-next-lokal/main/FLASH-NEXT-DE.zip) | [DE/START.md](DE/START.md) |
-| English | [FLASH-NEXT-EN.zip](https://raw.githubusercontent.com/dolmario/flash-next-lokal/main/FLASH-NEXT-EN.zip) | [EN/START.md](EN/START.md) |
+The runtime and the three large model files stay separate. The compact profile uses4K context, file mapping,32CPU MoE layers and64/32batch sizes. The original native conversation export and its timings are included. Earlier32K/100Kprofiles and measurements remain available with their dates.
 
-ZIP komplett in einen neuen Ordner entpacken. `VORBEREITEN-FLASH.ps1` schreibt einen Startbefehl für deine vorhandenen Dateien und startet dabei keinen Server. `PRUEFE-EIGENEN-SERVER.ps1` prüft ausschließlich Health und Modellliste deines eigenen lokalen Servers. Beide Skripte wurden syntaxgeprüft; die Vorbereitung wurde mit absichtlich nicht ausführbarer EXE und leeren Modell-Sentineldateien getestet, einschließlich Schutz vor Überschreiben. Ein neuer Modelllauf oder Live-HTTP-Test wurde damit nicht ausgeführt.
+Execution scope is recorded in [VALIDATION.json](PRACTICE-FIRST-ANSWER/VALIDATION.json). The downloaded kit is tested separately before the video package is handed over. Existing drivers/model weights were reused; no universal performance claim or fresh full-model network download is made.
 
-## Was du hier lernst
+## Earlier packages
 
-- Die genaue b10867-Prerelease-Version und ihren öffentlichen SHA256 identifizieren. Unsere bestehende ZIP und alle 52 enthaltenen Dateien stimmen mit diesem Archiv überein.
-- Drei GGUF-Teile, SSD-Bedarf, gemeinsam genutzten Speicher und Kontext auseinanderhalten.
-- Ein dokumentiertes 32K-Profil vorbereiten und anschließend die eigene tatsächliche Antwort bewerten.
-- Ausgabetoken pro Sekunde, gesamte Wartezeit und freien physischen RAM getrennt beurteilen.
+[English original guide](EN/START.md) · [German original guide](DE/START.md) · [Earlier records](ARCHIVE-METRICS.json) · [Preserved earlier README](README-BEFORE-PRACTICE.md)
 
-## Das dokumentierte Ergebnis hat Grenzen
+## Deutsch
 
-Die sechs archivierten Testzeilen sind in [ARCHIVE-METRICS.json](ARCHIVE-METRICS.json) erhalten. Vier ausgewählte 32K-Aufgaben ergaben 10,22 / 11,33 / 9,40 / 11,73 Ausgabetoken pro Sekunde. Der lange Versuch mit 86.135 Eingabetoken benötigte etwa 8.952,5 Sekunden insgesamt, also fast zweieinhalb Stunden. Einige Aufgaben bestanden bei weniger als 1 MB freiem physischem RAM. Das begründet keine allgemeine Betriebsfreigabe für 64-GB-Systeme.
-
-`--n-cpu-moe 16` bezeichnet 16 MoE-Schichten auf der CPU, nicht 16 einzelne Experten. Rund 177B im historischen Hauptmodell sind von den 180B einschließlich MTP in der offiziellen Modellkarte zu unterscheiden. Die neue Quellenübung ist fiktiv und wurde hier nicht frisch mit Flash Next ausgeführt. Andere Radeon-PCs und Macs wurden nicht getestet.
-
-Runtime, Modellgewichte und Treiber sind nicht im ZIP enthalten. Für einen eigenen Download gelten die Bedingungen der jeweiligen Anbieter; Qwen verwendet seine eigene Modelllizenz. [QUELLEN.md](QUELLEN.md) enthält die offiziellen Quellen und den festgehaltenen Versionsstand. Die neuen MOSS-Videos werden separat produziert; vollständiges Endhören bleibt offen.
-
-## English
-
-This kit teaches the documented Windows Vulkan experiment, from a pinned runtime and split GGUF files to your own source-selection exercise. Read [EN/START.md](EN/START.md) and extract the English ZIP completely. Preparation does not run a model. The archived long test took almost 2.5 hours, and some tasks left less than 1 MB of free physical RAM. Neither a successful start nor output-token speed proves general stability. No fresh model test, macOS verification, runtime or model weights are included. New MOSS videos are being produced separately.
+Das neue Praxispaket verbindet eine frisch eingerichtete festgelegte Runtime mit einer echten Quellenfrage, der Nachfrage im Browser und dem API-Beispiel.4K-Kontext, Dateimapping,32CPU-MoE-Schichten sowie64/32Batchgrößen gehören zum neuen Profil. Die bisherigen32K/100K-Profile und datierten Tests bleiben erhalten. Runtime und Modellgewichte liegen separat; der ausführbare Download wird vor der Videoabgabe geprüft.

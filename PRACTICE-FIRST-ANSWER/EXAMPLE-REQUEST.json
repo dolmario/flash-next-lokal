@@ -1,0 +1,15 @@
+{
+  "model": "flash-next",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Turn these workshop notes into exactly three short English bullet points. Keep the original facts.\nThe town image was created locally in ComfyUI.\nLTX turned the selected image into a five-second silent clip.\nThe greeting was added as a separate fixed text layer."
+    }
+  ],
+  "temperature": 0,
+  "max_tokens": 180,
+  "stream": false,
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  }
+}
