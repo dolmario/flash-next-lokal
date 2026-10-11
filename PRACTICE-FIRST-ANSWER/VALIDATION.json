@@ -1,6 +1,6 @@
 {
   "actual_private_api_and_native_browser_executed": true,
-  "public_download_execution_pending": true,
+  "public_download_execution_pending": false,
   "native_source_and_followup_correct": true,
   "setup": "Strix Halo64GB Windows; existing driver; pinned runtime freshly installed; existing fullSHA-verified model files",
   "profile": "4K/mmap/32CPU MoE/batch64/microbatch32/no-repack/cacheRAM0/checkpoints0",
@@ -35,5 +35,12 @@
     }
   ],
   "first_api_seconds": 37.203000000008615,
-  "whole_human_listening": false
+  "whole_human_listening": false,
+  "public_download_executed": true,
+  "downloaded_python_installer_executed": true,
+  "all_runtime_and_model_hashes_verified": true,
+  "tested_source_commit": "9b0af106061a2a34e5adf6285642fbaa1de37069",
+  "tested_archive_sha256": "2e9a1f8e32c92dd83edce9ee68358288369efd1d12ca9db0ca171b22b9750190",
+  "actual_api_request_seconds": 42.219000000011874,
+  "owned_public_server_stopped": true
 }
